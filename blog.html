@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Blog - Creatify</title>
+    <meta name="description" content="Read our blog for the latest design tips, tutorials, and inspiration to help you create better graphics with Creatify.">
+    <meta name="keywords" content="design blog, graphic design tips, design tutorials, creative inspiration">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>C</text></svg>">
+    
+    <!-- Stylesheets & Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="promo-banner" id="promo-banner">
+        <div class="container">
+            <p>✨ <a href="#">Watch the Creatify Keynote</a> to see our latest features!</p>
+            <button class="close-promo" id="close-promo" aria-label="Dismiss banner">&times;</button>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Creatify<span>.</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="templates.html">Templates</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">&#9776;</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Creatify Blog</h1>
+                <p>Tips, tutorials, and inspiration for your creative journey.</p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-card-content">
+                            <h3>5 Color Palette Secrets for Stunning Designs</h3>
+                            <p>Unlock the power of color theory. Learn how to choose compelling color combinations that make your designs pop and convey the right message.</p>
+                            <a href="#">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-card-content">
+                            <h3>Typography 101: How to Pair Fonts Like a Pro</h3>
+                            <p>Choosing the right fonts can be tricky. We break down the basics of font pairing to help you create readable and beautiful text layouts.</p>
+                            <a href="#">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-keyword-section">
+                    <h3>Need an idea for your next design?</h3>
+                    <p>Click the button below to get an AI-powered keyword suggestion!</p>
+                    <button id="generate-keyword-btn" class="btn btn-primary">Generate Keyword</button>
+                    <div id="keyword-display"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <p>&copy; 2025 Creatify. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
